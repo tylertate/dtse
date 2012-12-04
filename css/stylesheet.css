@@ -1,0 +1,130 @@
+body {
+  width: 100%;
+  *zoom: 1;
+  zoom: 1;
+}
+body:before, body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+body:before, body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+nav,
+aside,
+header,
+article,
+section,
+footer {
+  display: block;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a img {
+  border: none;
+}
+fieldset {
+  border: 0;
+}
+li {
+  list-style: none outside none;
+}
+body {
+  font: 0.875em/1.2857em "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1 {
+  font-size: 2.5em;
+  line-height: 1.25em;
+}
+h2 {
+  font-size: 2em;
+  line-height: 1.25em;
+  color: #ec806a;
+}
+h3 {
+  font-size: 1.5em;
+  line-height: 1.25em;
+}
+h4 {
+  font-size: 1em;
+  line-height: 1.25em;
+}
+#container {
+  padding: 2em;
+}
+section h2 {
+  display: block;
+  float: none;
+  width: auto;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 1.1111111111111112%;
+  margin-right: 1.1111111111111112%;
+}
+#table-of-contents ol#three-parts {
+  *zoom: 1;
+  zoom: 1;
+}
+#table-of-contents ol#three-parts:before, #table-of-contents ol#three-parts:after {
+  content: "";
+  display: table;
+}
+#table-of-contents ol#three-parts:after {
+  clear: both;
+}
+#table-of-contents ol#three-parts:before, #table-of-contents ol#three-parts:after {
+  content: "";
+  display: table;
+}
+#table-of-contents ol#three-parts:after {
+  clear: both;
+}
+#table-of-contents ol#three-parts li.part {
+  display: inline;
+  float: left;
+  width: 31.11111111111111%;
+  margin-left: 1.1111111111111112%;
+  margin-right: 1.1111111111111112%;
+}
+#contributors ul {
+  *zoom: 1;
+  zoom: 1;
+}
+#contributors ul:before, #contributors ul:after {
+  content: "";
+  display: table;
+}
+#contributors ul:after {
+  clear: both;
+}
+#contributors ul:before, #contributors ul:after {
+  content: "";
+  display: table;
+}
+#contributors ul:after {
+  clear: both;
+}
+#contributors ul li {
+  display: inline;
+  float: left;
+  width: 17.77777777777778%;
+  margin-left: 1.1111111111111112%;
+  margin-right: 1.1111111111111112%;
+  height: 10em;
+  background-color: #e6e6e6;
+}
+#contributors ul li h3 {
+  font-size: 1em;
+}
+#contributors ul li span {
+  display: none;
+}
