@@ -44,6 +44,7 @@ li { list-style: none outside none; }
 
 body {
 	font: 0.875em/1.2857em "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-text-size-adjust: 100%;
 }
 h2 {
 	.column();
@@ -276,10 +277,6 @@ header#hero {
 			margin-bottom: 4em;
 		}
 		#hero-image {
-			//margin-top: 4em;
-			//.column(14);
-			//.push(1);
-			//.pull(1);
 			display: none;
 		}
 	}
@@ -292,10 +289,22 @@ header#hero {
 		#hero-text {
 			.column(16);
 		}
-		//#hero-image {
-		//	margin-top: 4em;
-		//	.column(16);
-		//}
+	}
+}
+@media screen and (max-width: 24em) {
+	header#hero {
+		#hero-text {
+			margin-bottom: 2em;
+
+			h1#title {
+				margin-top: 1em;
+				font-size: 2.57em;
+			}
+
+			span.verb {
+				display: none;
+			}
+		}
 	}
 }
 
@@ -563,16 +572,14 @@ article#contributors {
 	section.contributor {
 		.column(3.2);
 		margin-bottom: 2em;
+		text-align: center;
 
 		h4 {
 			margin-bottom: 0.25em;
 			font-size: 1em;
 			text-transform: uppercase;
-			text-align: center;
 		}
 		figure {
-			text-align: center;
-
 			img {
 				width: 10em;
 				height: 10em;
@@ -585,7 +592,6 @@ article#contributors {
 			margin-bottom: 1em;
 			font-size: 0.928em;
 			line-height: 1.23em;
-			text-align: center;
 			color: #666;
 		}
 	}
