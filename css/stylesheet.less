@@ -757,5 +757,29 @@ article#authors {
 /////////////////
 
 footer#page-footer {
-	
+	ul {
+			margin: 3em 0 3em 0;
+			text-align: center;
+
+			li {
+				display: inline-block;
+				
+				margin: 0 0.5em 0 0.5em;
+
+				&:last-child {
+					margin-right: 0;
+				}
+
+				a {
+					.button(@aqua,#ffffff);
+					padding: 0.8em 1.2em;
+					font-size: 0.928em;
+					text-decoration: none;
+				}
+
+				span.short {
+					display: none;
+				}
+			}
+		}
 }
