@@ -961,6 +961,11 @@ article#book section#free-samples section#preview a:hover {
     margin-right: 2.083333333333333%;
   }
 }
+@media screen and (max-width: 24em) {
+  article#book section#table-of-contents a.download-link {
+    margin: 2px 0;
+  }
+}
 article#contributors {
   padding: 0 0 4em 0;
   margin: 0 0 -2em 0;
