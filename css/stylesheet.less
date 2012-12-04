@@ -443,6 +443,14 @@ article#book {
 				margin-bottom: 0.143em;
 			}
 		}
+		a.download-link {
+			.button(@aqua,#ffffff);
+			display: none;
+			padding: 0.09em 0.455em;
+			margin: -0.2em 0.4em;
+			font-size: 0.78em;
+			text-transform: uppercase;
+		}
 	}
 
 	section#free-samples {
@@ -515,6 +523,10 @@ article#book {
 		}
 		section#table-of-contents {
 			.column(7);
+
+			a.download-link {
+				display: inline-block;
+			}
 		}
 		section#free-samples {
 			.column(16);
@@ -759,6 +771,13 @@ article#authors {
 /////////////////
 
 footer#page-footer {
+	padding-top: 3em;
+
+	h1 {
+		font-size: 1.75em;
+		text-align: center;
+	}
+
 	ul {
 		margin: 3em 0 3em 0;
 		text-align: center;
@@ -791,7 +810,14 @@ footer#page-footer {
 	}
 }
 @media screen and (max-width: 26em) {
-	footer#page-footer ul li span.verb {
-		display: none;
+	footer#page-footer {
+		padding-top: 0;
+		
+		h1 {
+			display: none;
+		}
+		ul li span.verb {
+			display: none;
+		}
 	}
 }

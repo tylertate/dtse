@@ -653,6 +653,101 @@ article#book section#table-of-contents dl dt,
 article#book section#table-of-contents dl dd {
   margin-bottom: 0.143em;
 }
+article#book section#table-of-contents a.download-link {
+  display: inline-block;
+  position: relative;
+  padding: 0.33em 0.8em;
+  border: 1px solid #2d867e;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  border-radius: 0.5em;
+  *overflow: visible;
+  background: #49b6ad;
+  background: -webkit-gradient(linear, left top, left bottom, from(#5bc8bf), to(#37a49b));
+  background: -moz-linear-gradient(#5bc8bf, #37a49b);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#5bc8bf, endColorstr=#37a49b);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#5bc8bf, endColorstr=#37a49b)";
+  background-image: linear-gradient(#5bc8bf, #37a49b);
+  zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 #79d2cb;
+  -moz-box-shadow: inset 0 1px 0 #79d2cb;
+  box-shadow: inset 0 1px 0 #79d2cb;
+  color: #ffffff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  line-height: 1.5em;
+  *line-height: 1.1em;
+  cursor: pointer;
+  text-decoration: none;
+  display: none;
+  padding: 0.09em 0.455em;
+  margin: -0.2em 0.4em;
+  font-size: 0.78em;
+  text-transform: uppercase;
+}
+article#book section#table-of-contents a.download-link a,
+article#book section#table-of-contents a.download-link a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+article#book section#table-of-contents a.download-link:hover {
+  background: #4eb8af;
+  background: -webkit-gradient(linear, left top, left bottom, from(#66ccc4), to(#37a49b));
+  background: -moz-linear-gradient(#66ccc4, #37a49b);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66ccc4, endColorstr=#37a49b);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#66ccc4, endColorstr=#37a49b)";
+  background-image: linear-gradient(#66ccc4, #37a49b);
+  zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 #8cd9d2;
+  -moz-box-shadow: inset 0 1px 0 #8cd9d2;
+  box-shadow: inset 0 1px 0 #8cd9d2;
+}
+article#book section#table-of-contents a.download-link:active {
+  background: #349b92;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2a7e77), to(#3db8ad));
+  background: -moz-linear-gradient(#2a7e77, #3db8ad);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#2a7e77, endColorstr=#3db8ad);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#2a7e77, endColorstr=#3db8ad)";
+  background-image: linear-gradient(#2a7e77, #3db8ad);
+  zoom: 1;
+  -webkit-box-shadow: inset 0 0 3px #0d2624;
+  -moz-box-shadow: inset 0 0 3px #0d2624;
+  box-shadow: inset 0 0 3px #0d2624;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  border: 1px solid #20605a;
+}
+article#book section#table-of-contents a.download-link.active {
+  background: #339991;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2d867e), to(#39aca3));
+  background: -moz-linear-gradient(#2d867e, #39aca3);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#2d867e, endColorstr=#39aca3);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#2d867e, endColorstr=#39aca3)";
+  background-image: linear-gradient(#2d867e, #39aca3);
+  zoom: 1;
+  -webkit-box-shadow: inset 0 0 3px #0d2624;
+  -moz-box-shadow: inset 0 0 3px #0d2624;
+  box-shadow: inset 0 0 3px #0d2624;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  border: 1px solid #20605a;
+}
+article#book section#table-of-contents a.download-link.disabled,
+article#book section#table-of-contents a.download-link.disabled:hover,
+article#book section#table-of-contents a.download-link.disabled:active {
+  opacity: 0.6;
+  filter: alpha "(opacity = 0.6)";
+  cursor: default;
+  background: #49b6ad;
+  background: -webkit-gradient(linear, left top, left bottom, from(#5bc8bf), to(#37a49b));
+  background: -moz-linear-gradient(#5bc8bf, #37a49b);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#5bc8bf, endColorstr=#37a49b);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#5bc8bf, endColorstr=#37a49b)";
+  background-image: linear-gradient(#5bc8bf, #37a49b);
+  zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 #79d2cb;
+  -moz-box-shadow: inset 0 1px 0 #79d2cb;
+  box-shadow: inset 0 1px 0 #79d2cb;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  border: 1px solid #2d867e;
+}
 article#book section#free-samples {
   display: inline;
   float: left;
@@ -817,6 +912,9 @@ article#book section#free-samples section#preview a:hover {
     width: 39.58333333333333%;
     margin-left: 2.083333333333333%;
     margin-right: 2.083333333333333%;
+  }
+  article#book section#table-of-contents a.download-link {
+    display: inline-block;
   }
   article#book section#free-samples {
     display: inline;
@@ -1091,6 +1189,13 @@ article#authors section.author a:hover {
     margin-right: 2.083333333333333%;
   }
 }
+footer#page-footer {
+  padding-top: 3em;
+}
+footer#page-footer h1 {
+  font-size: 1.75em;
+  text-align: center;
+}
 footer#page-footer ul {
   margin: 3em 0 3em 0;
   text-align: center;
@@ -1203,6 +1308,12 @@ footer#page-footer ul li span.short {
   }
 }
 @media screen and (max-width: 26em) {
+  footer#page-footer {
+    padding-top: 0;
+  }
+  footer#page-footer h1 {
+    display: none;
+  }
   footer#page-footer ul li span.verb {
     display: none;
   }
