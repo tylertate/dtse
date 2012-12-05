@@ -525,7 +525,7 @@ article#endorsements h2 {
 article#endorsements section.endorsement {
   display: inline;
   float: left;
-  width: 20.833333333333336%;
+  width: 29.145833333333332%;
   margin-left: 2.083333333333333%;
   margin-right: 2.083333333333333%;
   margin-bottom: 3em;
@@ -549,24 +549,6 @@ article#endorsements section.endorsement p.text {
   }
 }
 @media screen and (max-width: 47em) {
-  article#endorsements {
-    padding: 0 0 4em 0;
-  }
-  article#endorsements h2 {
-    display: block;
-  }
-  article#endorsements section.endorsement {
-    display: inline;
-    float: left;
-    width: 33.33333333333333%;
-    margin-left: 2.083333333333333%;
-    margin-right: 2.083333333333333%;
-    padding-left: 0;
-    margin-left: 8.333333333333332%;
-    margin-right: 8.333333333333332%;
-  }
-}
-@media screen and (max-width: 39em) {
   article#endorsements {
     margin-bottom: -2em;
   }
@@ -993,7 +975,7 @@ article#contributors section.contributor figure img {
   border-radius: 5em;
 }
 article#contributors section.contributor p {
-  height: 4.62em;
+  height: 4.92em;
   margin-bottom: 1em;
   font-size: 0.928em;
   line-height: 1.23em;
