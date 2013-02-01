@@ -317,8 +317,8 @@ article#endorsements {
 	}
 
 	section.endorsement {
-		//.column(4);
-		.column(5.33);
+		.column(4);
+		//.column(5.33);
 		margin-bottom: 3em;
 
 		p {
@@ -345,19 +345,19 @@ article#endorsements {
 		}
 	}
 }
-//@media screen and (max-width: 47em) {
-//	article#endorsements {
-//		padding: 0 0 4em 0;
-//		h2 {
-//			display: block;
-//		}
-//		section.endorsement {
-//			.column(6);
-//			.push(1);
-//			.pull(1);
-//		}
-//	}
-//}
+@media screen and (max-width: 47em) {
+	article#endorsements {
+		padding: 0 0 4em 0;
+		h2 {
+			display: block;
+		}
+		section.endorsement {
+			.column(6);
+			.push(1);
+			.pull(1);
+		}
+	}
+}
 // Single-column
 @media screen and (max-width: 47em) { // was 39
 	article#endorsements {
